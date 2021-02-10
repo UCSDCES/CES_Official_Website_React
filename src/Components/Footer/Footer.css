@@ -1,0 +1,140 @@
+.footer {
+    background-color: #404040;
+    color: white;
+    padding: 6em;
+}
+
+.homepage_footer_icons {
+    background-color: grey;
+    border-radius: 50%;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.homepage_footer_widgets {
+    height: 30px;
+    width: 30px;
+}
+
+#footer_icon_container {
+    height: 70px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.homepage_footer_icons:hover {
+    transform: scale(1.2); 
+    cursor: pointer;
+    display: block;
+    background-color: rgb(143, 148, 153); 
+    transition: 0.4s all ease;
+   }
+
+.green_icon:hover {
+     background-color: rgb(26, 173, 25); 
+     cursor: default;
+
+     /* For Internet Explorer */ 
+     box-shadow: 0 0 0 1000px rgba(0, 0, 0, .3); 
+       
+     /* For other browsers */ 
+     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5); 
+     /* pointer-events: none;  */
+     transition: 0.08s all ease;
+     filter: brightness(100%);
+     
+}
+
+.facebook_blue_icon:hover {
+   background-color: rgb(66, 103, 178); 
+}
+
+.github_black_icon:hover {
+   background-color: rgb(37, 41, 46); 
+}
+
+.ins_pink_icon::before {
+     position: absolute;
+     content: "";
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     border-radius: 50%;
+ 
+     background-image: linear-gradient(to bottom left, rgb(110, 26, 199), rgb(241, 81, 67), rgb(255, 251, 1) );
+ 
+     transition: opacity 1s ease-in-out !important;
+     z-index: -1;
+     opacity: 0;
+}
+
+.ins_pink_icon:hover {
+     background-image: linear-gradient(to top left, rgb(110, 26, 199), rgb(241, 81, 67), rgb(255, 251, 1) );
+     transition: .3s all ease;
+   }
+
+.ins_pink_icon:hover::before{
+     opacity: 1;
+}
+
+#homepage_footer_widget_mail {
+    background-image: url("../../images/email_white.png");
+    background-size: cover;
+  }
+#homepage_footer_widget_github {
+   background-image: url("../../images/github2.png");
+   background-size: cover;
+}
+
+#homepage_footer_widget_facebook {
+   background-image: url("../../images/facebook2.png");
+   background-size: cover;
+}
+ 
+#homepage_footer_widget_sponsor {
+   background-image: url("../../images/hezuowoshou.png");
+   background-size: cover;
+}
+ 
+#homepage_footer_widget_wechat {
+   background-image: url("../../images/wechat.png");
+   background-size: cover;
+}
+
+#wechat {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -170px;
+    left: -45px;
+    opacity: 0;
+    transition: 0.5s ease;
+    z-index: -1;
+}
+ 
+#homepage_footer_widget_linkedin {
+   background-image: url("../../images/linkedin_white.png");
+   background-size: cover;
+}
+
+#homepage_footer_widget_instagram {
+    background-image: url("../../images/instagram5.png");
+    background-size: cover;
+    z-index: 1;
+}
+
+
+
+
+p {
+    display: block;
+}

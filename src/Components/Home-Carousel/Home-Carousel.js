@@ -5,6 +5,17 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import p1 from "../../images/wechat_photos/drone_pic.png";
 import p2 from "../../images/Grad Panel 2.jpg";
+import { useState, useEffect } from 'react';
+
+function getWindowDimensions() {
+  const { innerWidth: width, innerHeight: height } = window;
+  return {
+    width,
+    height
+  };
+}
+
+
 
 const responsive = {
   desktop: {
@@ -25,7 +36,7 @@ const responsive = {
 };
 
 const homeCarousel = () => (
-  <OwlCarousel className="owl-theme" responsive={responsive} loop={true} margin={0} center={true} dots={true} autoplay={true} autoplayHoverPause={true} items={responsive.items} nav>
+  <OwlCarousel className="owl-theme" responsive={responsive} loop={true} margin={0} center={true} dots={true} autoplay={true} autoplayHoverPause={true} items={1} nav>
     <div className="item">
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={p1} />
