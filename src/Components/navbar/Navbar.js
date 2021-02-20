@@ -12,7 +12,7 @@ const navbar = () => (
             <Nav className="mr-auto">
                 <Nav.Link id="nav-item" className="active" href="/">Home</Nav.Link>
                 <Nav.Link id="nav-item" href="/members">Members</Nav.Link>
-                <Nav.Link id="nav-item" href="#link">Gallery</Nav.Link>
+                <Nav.Link id="nav-item" href="/gallery">Gallery</Nav.Link>
                 <Nav.Link id="nav-item" href="#home">Events</Nav.Link>
                 <Nav.Link id="nav-item" href="#link">About</Nav.Link>
                 <Nav.Link id="nav-item" href="#link">Contact</Nav.Link>

@@ -36,7 +36,7 @@ const responsive = {
 };
 
 const homeCarousel = () => (
-  <OwlCarousel className="owl-theme" responsive={responsive} loop={true} margin={0} center={true} dots={true} autoplay={true} autoplayHoverPause={true} items={1} nav>
+  <OwlCarousel className="owl-theme" responsive={responsive} loop={true} margin={0} center={true} dots={true} autoplay={true} autoplayHoverPause={true} items={3} nav>
     <div className="item">
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={p1} />
