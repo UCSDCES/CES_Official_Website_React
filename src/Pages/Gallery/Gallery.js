@@ -1,54 +1,50 @@
 import Navbar from "../../Components/navbar/Navbar";
 import Footer from "../../Components/Footer/Footer"
 import { Row, Col, Container, Card, Image } from 'react-bootstrap';
-import React, { Component } from "react";
-import { render } from "react-dom";
-import { Route } from "react-router";
+import React from "react";
+import './Gallery.css';
 
-var listOfImages = [];
+const Gallery = () => {
 
-class Gallery extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {date: new Date()};
-      }
 
-    importAll(r) {
+    function importAll(r) {
         return r.keys().map(r);
     }
-    componentWillMount() {
-        listOfImages = this.importAll(require.context('../../images/', false, /\.(png|jpe?g|svg)$/));
-    }
 
-    render() {
-        return (
-            <div>
-                <div id="gallery-header">
-                    <Container>
-                        <Navbar />
-                        <Row>
-                            <Col><h1>Gallery</h1></Col>
-                        </Row>
-                    </Container>
-                </div>
+    //list of paths of all images
+    const images = importAll(require.context('../../images/Gallery', false, /\.(png|jpe?g|svg)$/));
 
-                <div>
+    return (
+        <div>
+            <div id="gallery-header">
+                <Container>
+                    <Navbar />
+                    <p id="title">Gallery</p>
+                </Container>
+            </div>
+
+            <div id="body">
+                <Container>
                     <Row>
                         {
-                            listOfImages.map(
-                                (image, index) => <Col><img key={index} src={image} alt="info"></img></Col>
+                            images.map(
+                                (image, index) => {
+                                    return <Col lg={4}><img key={index} src={image.default} alt="info"></img></Col>
+                                }
                             )
                         }
                     </Row>
-                </div>
+                </Container>
 
-
-                <div>
-                    <Footer />
-                </div>
             </div>
-        )
-    }
+
+
+            <div>
+                <Footer />
+            </div>
+        </div>
+    )
+
 
 
 }

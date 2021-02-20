@@ -1,0 +1,40 @@
+#body {
+    background-color: #b54648;
+}
+
+#title {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-style: none;
+}
+
+#gallery-header {
+    background-image: url("../../images/bg_2.jpg");
+    height: 80vh;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+#gallery-header::before {
+    background: #000;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .3;
+    z-index: 0;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;  
+}
