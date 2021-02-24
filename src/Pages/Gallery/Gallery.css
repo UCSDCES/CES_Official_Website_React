@@ -36,5 +36,27 @@
 }
 
 img {
-    width: 100%;  
+    width: 100%;
+    position: relative;
+    size: cover;
+}
+
+#psd {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    transition: 0.2s ease-in;
+}
+
+#psd:hover {
+    opacity: 0.5;
+    cursor: zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in
 }

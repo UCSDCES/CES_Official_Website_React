@@ -1,6 +1,6 @@
 import Navbar from "../../Components/navbar/Navbar";
 import Footer from "../../Components/Footer/Footer"
-import { Row, Col, Container, Card, Image } from 'react-bootstrap';
+import { Row, Col, Container, Image } from 'react-bootstrap';
 import React from "react";
 import './Gallery.css';
 
@@ -29,16 +29,16 @@ const Gallery = () => {
                         {
                             images.map(
                                 (image, index) => {
-                                    return <Col lg={4}><img key={index} src={image.default} alt="info"></img></Col>
+                                    return <Col style={{padding: "0px"}} lg={4}>
+                                        <Image src={image.default} fluid />
+                                        <div id="psd"></div>
+                                    </Col>
                                 }
                             )
                         }
                     </Row>
                 </Container>
-
             </div>
-
-
             <div>
                 <Footer />
             </div>
