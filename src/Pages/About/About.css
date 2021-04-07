@@ -1,0 +1,29 @@
+#about-header {
+    background-image: url("../../images/group_meeting.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  }
+  
+#about-header::before {
+    background: #000;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .3;
+    z-index: 0;
+    overflow: hidden;
+}
+  
+#motto {
+    color: white;
+    font-size: 5vw;
+    margin-top: 30%;
+}
+
+#intro {
+    margin-top: 50px;
+}

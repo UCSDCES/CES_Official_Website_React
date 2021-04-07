@@ -30,7 +30,7 @@ const Gallery = () => {
                             images.map(
                                 (image, index) => {
                                     return <Col style={{padding: "0px"}} lg={4}>
-                                        <Image src={image.default} fluid />
+                                        <Image className="img-gallery" src={image.default}  />
                                         <div id="psd"></div>
                                     </Col>
                                 }
@@ -44,8 +44,6 @@ const Gallery = () => {
             </div>
         </div>
     )
-
-
 
 }
 

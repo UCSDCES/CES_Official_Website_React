@@ -14,7 +14,7 @@ const navbar = () => (
                 <Nav.Link id="nav-item" href="/members">Members</Nav.Link>
                 <Nav.Link id="nav-item" href="/gallery">Gallery</Nav.Link>
                 <Nav.Link id="nav-item" href="#home">Events</Nav.Link>
-                <Nav.Link id="nav-item" href="#link">About</Nav.Link>
+                <Nav.Link id="nav-item" href="/about">About</Nav.Link>
                 <Nav.Link id="nav-item" href="#link">Contact</Nav.Link>
             </Nav>
         </Navbar.Collapse>
