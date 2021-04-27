@@ -1,0 +1,21 @@
+.m-card {
+    background-color: #fafafa;
+    margin-top: 40px;
+}
+
+.m-card-intro {
+    color: #B3B3B3;
+}
+
+.m-card-role {
+    background-color: #F2F2F2;
+    display: inline-block;
+    width: 50%;
+}
+
+.m-card-dep {
+    background-color: #B54648;
+    color: white;
+    display: inline-block;
+    width: 50%;
+}
