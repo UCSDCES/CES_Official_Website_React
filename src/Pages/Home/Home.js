@@ -9,7 +9,14 @@ import { render } from "react-dom";
 import { Route } from "react-router";
 import "./Home.css";
 
+function importAll(r) {
+    return r.keys().map(r);
+}
+
+const images = importAll(require.context('../../images/partner', false, /\.(png|jpe?g|svg)$/));
+
 const Home = () => (
+
 
     <div>
         <div id="home-header">
@@ -23,12 +30,44 @@ const Home = () => (
 
         <div id="site-section">
             <Container>
+                <h1 style={{ textAlign: "left", marginTop: "40px", color: "#b54648" }}>Routine Activities</h1>
                 <Row>
+                    <Col md={4} sm={12}>
+                        <Card id="home-card">
+                            <Card.Body>
+                                <Card.Title>Career Prepare</Card.Title>
+                                <Card.Text id="card-text">Invited alumni from different majors, covering STEM majors and Business-related majors, to share their job experiences,
+                                timelines for job/internship application and views of career, better prepare students for future careers and applying to internship.</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+
+                    <Col md={4} sm={12}>
+                        <Card id="home-card">
+                            <Card.Body>
+                                <Card.Title>Interview Prepare</Card.Title>
+                                <Card.Text id="card-text">Invited alumni from various STEM majors who have rich experiences in interviews and successfully got internships,
+                                to share basic information about interviews, skills needed, tips to apply during the interview, and how to practice both technical and behavioral questions.</Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+
                     <Col md={4} sm={12}>
                         <Card id="home-card">
                             <Card.Body>
                                 <Card.Title>Inspiration Talk</Card.Title>
-                                <Card.Text id="card-text">An engineeing version of TEDx in UCSD hosted by CES. The best way to learn about frontier science and obtain connections with professors.</Card.Text>
+                                <Card.Text id="card-text">Inspiration talk is aimed to connect students and current professors. Professors who are working on cutting-edge and world-changing
+                                research projects will be invited to share with students their recent research project along with their stories of becoming an outstanding researcher. </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={4} sm={12}>
+                        <Card id="home-card">
+                            <Card.Body>
+                                <Card.Title>Grad Panel</Card.Title>
+                                <Card.Text id="card-text">Grad Panel provides a closer opportunity for students to communicate with seniors, grad students, and UCSD alumni for future suggestions. </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -36,68 +75,48 @@ const Home = () => (
                     <Col md={4} sm={12}>
                         <Card id="home-card">
                             <Card.Body>
-                                <Card.Title>Grad School Application Roundtables</Card.Title>
-                                <Card.Text id="card-text">A roundtable dinner party that gathers some of the most intelligent senior UCSD graduates who are about to persue their graduate school degrees.</Card.Text>
+                                <Card.Title>Research Seminar</Card.Title>
+                                <Card.Text id="card-text">Excellent undergraduate researchers are invited as guest speaker for Research Seminar to introduce research lab’s structure and on-campus resources that could help an undergrad work in lab at UCSD. </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
 
                     <Col md={4} sm={12}>
-                        <Card id="home-card">
-                            <Card.Body>
-                                <Card.Title>Join us and change the world</Card.Title>
-                                <Card.Text id="card-text">If you consider yourself as a passionate, ambitous and innovate indivisual who is currently persuing a degress in Science and Engineering, come, join us and let CES redefine your world.</Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
+                            <div style={{ marginTop: "80px" }}>
+                                <h3 style={{ textAlign: "center" }}>and more ...</h3>
+                            </div>
+                            <div>
+                                <a href="/events"><button id="leader-btn">See Schedule</button></a>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
             </Container>
         </div>
 
-        <div id="home-crew">
+        <div>
             <Container>
+                <h1 style={{ textAlign: "left", marginTop: "40px", color: "#b54648"}}>Partners</h1>
                 <Row>
-                    <Col lg={4} md={4} id="left-part">
-                        <span>CES 2021</span>
-                        <h2>2021 CES Crews</h2>
-                        <p>Concurrently, CES is consisted of not only UCSD juniors, sophomores and freshmans who excel in their studies, but also senior graduates who are already admitted by prestigous schools such as Columbia University, UC Berkeley and so on.</p>
-                        <span id="text-above-button">CES Alumini landed in top 30 American Graduate Institutes</span>
-                        <button id="connect-btn">CONNECT WITH CES TODAY</button>
-                    </Col>
-
-                    <Col lg={1}></Col>
-
-                    <Col lg={7} md={7} id="crew-image">
-                        <Image fluid src={family2020} alt="Image Placeholder" />
-                    </Col>
+                    {
+                        images.map(
+                            (image, index) => {
+                                return <Col style={{ padding: "10px", display: "flex", alignItems: "center", justifyContent: "center"}} lg={2}>
+                                    <div style={{}}>
+                                        <Image className="partner-img" src={image.default} />
+                                    </div>
+                                </Col>
+                            }
+                        )
+                    }
                 </Row>
-
+                
             </Container>
+
         </div>
 
-        <Container id="donation">
-            <h1 id="recent-events">Recent Events</h1>
-            <HomeCarousel />
-        </Container>
 
-        <div id="leader-board">
-            <Container>
-                <Row>
-                    <Col lg={5} md={5} id="crew-image">
-                        <Image fluid src={bg_3} alt="Image Placeholder" />
-                    </Col>
-                    <Col lg={1}></Col>
-
-                    <Col lg={5} md={5} id="left-part">
-                        <span>NEXT GENERATION LEADERSHIP</span>
-                        <h2>2021 CES Leader Board</h2>
-                        <p>We strive to be better...</p>
-                        <button id="leader-btn">KNOW MORE ABOUT US</button>
-                    </Col>
-                </Row>
-
-            </Container>
-        </div>
 
         <div>
             <Footer />

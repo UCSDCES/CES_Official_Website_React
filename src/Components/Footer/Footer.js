@@ -40,9 +40,6 @@ const footer = () => (
                     <p>
                         This Website is made and maintained by Chinese Engineering Society <br />
                         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved.
-                        <div style={{opacity: 0.3}}>
-                            This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
-                        </div>
                     </p>
                 </Col>
             </Row>

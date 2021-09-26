@@ -2,6 +2,7 @@ import Navbar from "../../Components/navbar/Navbar";
 import Footer from "../../Components/Footer/Footer"
 import { Row, Col, Container, Card, Image } from 'react-bootstrap';
 import MemberCard from '../../Components/member-card/MemberCard';
+import AlumniCard from '../../Components/alumni-card/alumniCard';
 import './Members.css';
 
 const Members = () => (
@@ -82,6 +83,45 @@ const Members = () => (
             </section>
             <section>
                 <h2>Alumni</h2>
+                <Row>
+                    <AlumniCard name='Zhizhen Qin' role='Former President'/>
+                    <AlumniCard name='Xinyu Liu' role='Former Strategy'/>
+                    <AlumniCard name='Zhiyuan Chen' role=''/>
+                    <AlumniCard name='Shuyang Liu' role='Former DAD'/>
+                    <AlumniCard name='Zhixiong Li' role='Former IA'/>
+                    <AlumniCard name='Ruolei Dong' role='Former Media'/>
+                    <AlumniCard name='Shantao Yi' role='Former CDP'/>
+                    <AlumniCard name='Renxu Hu' role='Former CDP'/>
+                    <AlumniCard name='Ziyan Cui' role='Former VP of external'/>
+                    <AlumniCard name='Cheng Gong' role='Former CDP'/>
+                    <AlumniCard name='Zixin Zeng' role='Former IA'/>
+                    <AlumniCard name='Jason Zhang' role=''/>
+                    <AlumniCard name='Yujian Mi' role='Former CDP'/>
+                    <AlumniCard name='Shuyang Miao' role='Former CDP'/>
+                    <AlumniCard name='Changpei Lin' role=''/>
+                    <AlumniCard name='Flora Shen' role=''/>
+                    <AlumniCard name='Jiaye Wang' role='Former DAD'/>
+                    <AlumniCard name='Chunchen Hong' role='Former DAD'/>
+                    <AlumniCard name='Yujie Chen' role='Former CDP'/>
+                    <AlumniCard name='Zhizhen Qin' role='Former President'/>
+                    <AlumniCard name='Zhizhen Qin' role='Former President'/>
+                    <AlumniCard name='Guangze Wang' role='Former IA'/>
+                    <AlumniCard name='Yijun Liu' role=''/>
+                    <AlumniCard name='Luo Hao' role='Former President'/>
+                    <AlumniCard name='Zhuoran Li' role='Former DAD, BD'/>
+                    <AlumniCard name='Zhihan Hu' role='Former DAD'/>
+                    <AlumniCard name='Chen Liu' role='Former CDP'/>
+                    <AlumniCard name='Chen Lin' role='Former DAD'/>
+                    <AlumniCard name='Tianchong Jiang' role='Former CDP'/>
+                    <AlumniCard name='Yuyao Cheng' role=''/>
+                    <AlumniCard name='Xiaoqian Wang' role=''/>
+                    <AlumniCard name='Zheng Zhong' role='Former CDP'/>
+                    <AlumniCard name='Yizhi Yuan' role=''/>
+                    <AlumniCard name='Xiaoye Zuo' role=''/>
+                    <AlumniCard name='Shinuo Xu' role='Former CDP'/>
+                    <AlumniCard name='Yiran Shao' role='Former CDP'/>
+
+                </Row>
 
             </section>
         </Container>

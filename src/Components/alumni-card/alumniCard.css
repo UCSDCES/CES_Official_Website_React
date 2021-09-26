@@ -1,0 +1,13 @@
+.a-card {
+    background-color: #fafafa;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+
+.a-card-role {
+    background-color: #B54648;
+    color: white;
+    display: inline-block;
+    width: 100%;
+}

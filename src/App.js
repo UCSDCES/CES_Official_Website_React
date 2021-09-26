@@ -5,7 +5,7 @@ import Home from "./Pages/Home/Home"
 import Members from "./Pages/Members/Members";
 import Gallery from "./Pages/Gallery/Gallery";
 import About from "./Pages/About/About";
-
+import Events from "./Pages/Events/Events";
 
 class App extends Component {
 
@@ -18,6 +18,7 @@ class App extends Component {
           <Route path="/members" render={Members}/>
           <Route path="/gallery" render={Gallery}/>
           <Route path="/about" render={About}/>
+          <Route path="/events" render={Events}/>
         </div>
       </BrowserRouter>
     );

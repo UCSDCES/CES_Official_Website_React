@@ -14,7 +14,7 @@ const About = () => (
             <Container>
                 <Navbar />
                 <Row>
-                    <Col xs={12} lg={8} md={10} ><h2 id="motto">Let the world hear the voice of Chinese Engineers</h2></Col>
+                    <p id="title">About Us</p>
                 </Row>
             </Container>
         </div>

@@ -1,3 +1,8 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+
 #home-header {
     background-image: url("../../images/bg_12.jpg");
     background-size: cover;
@@ -140,7 +145,7 @@
   }
   
   #leader-btn:hover {
-    background: transparent;
-    border: 2px solid white;
+    cursor: pointer;
   }
+
   
