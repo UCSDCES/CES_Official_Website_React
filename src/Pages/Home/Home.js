@@ -96,7 +96,7 @@ const Home = () => (
         </div>
 
         <div>
-            <Container>
+            <Container id="partners">
                 <h1 style={{ textAlign: "left", marginTop: "40px", color: "#b54648"}}>Partners</h1>
                 <Row>
                     {
