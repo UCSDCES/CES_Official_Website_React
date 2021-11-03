@@ -7,11 +7,11 @@ const footer = () => (
     <footer className="footer">
 
         <div id="footer_icon_container">
-            <div className="homepage_footer_icons mail_white_icon" onclick="window.open('mailto:wag001@ucsd.edu')">
+            <div className="homepage_footer_icons mail_white_icon" onClick={()=> window.open('mailto:ucsdces@ucsd.edu')}>
                 <div id="homepage_footer_widget_mail" className="homepage_footer_widgets"></div>
             </div>
 
-            <div className="homepage_footer_icons github_black_icon" onclick="window.open ('https://github.com/Broccolito/CES_Official_Website')">
+            <div className="homepage_footer_icons github_black_icon" onClick="window.open ('https://github.com/Broccolito/CES_Official_Website')">
                 <div id="homepage_footer_widget_github" className="homepage_footer_widgets"></div>
             </div>
 
@@ -23,12 +23,12 @@ const footer = () => (
 
             </div>
 
-            <div className="homepage_footer_icons facebook_blue_icon" onclick="window.open ('https://www.facebook.com/CESUCSD/')">
+            <div className="homepage_footer_icons facebook_blue_icon" onClick={()=>window.open('https://www.facebook.com/CESUCSD/')}>
                 <div id="homepage_footer_widget_facebook" className="homepage_footer_widgets"></div>
             </div>
 
 
-            <div className="homepage_footer_icons ins_pink_icon" onclick="window.open('https://www.instagram.com/ucsdces/')">
+            <div className="homepage_footer_icons ins_pink_icon" onClick={()=>window.open('https://www.instagram.com/ucsdces/')}>
                 <div id="homepage_footer_widget_instagram" className="homepage_footer_widgets"></div>
             </div>
 
