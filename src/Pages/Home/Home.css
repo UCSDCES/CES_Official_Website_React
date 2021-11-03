@@ -1,7 +1,24 @@
 * {
   font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
 }
-
+@media only screen and (max-width: 700px){
+  #home-header {
+    background-size: 100% 40vh !important;
+    background-repeat: no-repeat;
+    height: 40vh !important;
+  }
+  #motto{
+    font-size: 7vw !important;
+    width:80%;
+  }
+  #partners div{
+    width:80%;
+    margin: auto;
+  }
+  #partners div div{
+    margin-bottom: 1vh;
+  }
+}
 
 #home-header {
     background-image: url("../../images/bg_12.jpg");
