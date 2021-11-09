@@ -18,8 +18,7 @@ const Events = () => (
         </div>
         <h1 style={{marginTop: "20px", marginBottom: "20px", color: "#b54648"}}>Upcoming</h1>
         <div className='event-container' >
-            <EventCard date='May 6th' title='Grad Panel' image={pic} intro='ggtfytftyrdrtesykiyftgugigufid65ygigoyigpoy'/>
-            <EventCard date='May 6th' title='Grad Panel' image={pic} intro='ggtfytftyrdrtesykiyftgugigufid65ygigoyigpoy'/>  
+              
         </div>
         <h1 style={{marginTop: "20px", marginBottom: "20px", color: "#b54648"}}>Past</h1>
 
