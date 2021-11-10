@@ -55,7 +55,7 @@ const Members = () => (
                     <MemberCard name='Yucheng Huang' info="Junior | CE" role="Member" department="CDP" />
                     <MemberCard name='Chen Lou' info="Junior | CE" role="Member" department="CDP" />
                     <MemberCard name='Zhaoyu Zhang' info="Sophomore | Math-CS" role="Member" department="CDP" />
-                    <MemberCard name='Zishan Gao' info="Junior | CE" role="Member" department="CDP" />
+                    <MemberCard name='Zibin Gao' info="Junior | CE" role="Member" department="CDP" />
                     <MemberCard name='Mingxuan Nie' info="Freshmen | EE" role="Member" department="CDP" />
                     <MemberCard name='Bihua Zhao' info="Sophomore | Math-CS" role="Member" department="CDP" />
 
