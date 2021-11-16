@@ -102,7 +102,7 @@ const Home = () => (
                     {
                         images.map(
                             (image, index) => {
-                                return <Col style={{ padding: "10px", display: "flex", alignItems: "center", justifyContent: "center"}} lg={2} sm={6}>
+                                return <Col style={{ padding: "10px", display: "flex", alignItems: "center", justifyContent: "center"}} lg={2} xs={4}>
                                     <div style={{}}>
                                         <Image className="partner-img" src={image.default} />
                                     </div>

@@ -1,8 +1,8 @@
 import Navbar from "../../Components/navbar/Navbar";
 import Footer from "../../Components/Footer/Footer"
 import { Row, Col, Container, Card, Image } from 'react-bootstrap';
-import family2020 from "../../images/family2020.jpg";
-import ces_bg from "../../images/ces_bg.jpg";
+import family2021 from "../../images/Gallery/DSC00859.jpg";
+import ces_bg from "../../images/Gallery/IMG_0702.jpg";
 import bg_1 from "../../images/bg_1.jpg";
 import bg_2 from "../../images/bg_2.jpg";
 import './About.css';
@@ -19,7 +19,7 @@ const About = () => (
             </Container>
         </div>
         <Container style={{ "margin-top": "50px", "margin-bottom": "50px"}}>
-            <Image fluid src={family2020} alt="Image Placeholder" />
+            <Image fluid src={family2021} alt="Image Placeholder" />
             <Image fluid src={ces_bg} alt="Image Placeholder" />
             <Row>
                 <Col xs={12} lg={6} md={6}>

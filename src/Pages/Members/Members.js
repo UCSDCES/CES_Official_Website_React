@@ -8,7 +8,7 @@ import './Members.css';
 const Members = () => (
 
     <div>
-        <div id="about-header">
+        <div id="members-header">
             <Container>
                 <Navbar />
                 <Row>

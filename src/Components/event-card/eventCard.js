@@ -1,8 +1,9 @@
 import React from "react";
 import "./eventCard.css"
+import {Col} from 'react-bootstrap';
 
 const eventCard = (props) => (
-    
+    <Col lg={4} md={6} xs={12}>
         <div className='event-card'>
             <div>
                 <img src={props.image} alt="#"/>
@@ -14,6 +15,8 @@ const eventCard = (props) => (
                 <p>{props.intro}</p>
             </div>
         </div>
+    </Col>
+        
 
 )
 

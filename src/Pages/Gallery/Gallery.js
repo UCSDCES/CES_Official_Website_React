@@ -29,7 +29,7 @@ const Gallery = () => {
                         {
                             images.map(
                                 (image, index) => {
-                                    return <Col style={{padding: "0px"}} lg={4}>
+                                    return <Col style={{padding: "0px"}} lg={4} xs={6}>
                                         <Image className="img-gallery" src={image.default}  />
                                         <div id="psd"></div>
                                     </Col>
