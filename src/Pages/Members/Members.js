@@ -72,7 +72,6 @@ const Members = () => (
 
 
                     <MemberCard name='Dongyang Li' info="Freshmen | Mathematics & Computer Science" role="Member" department="BD" />
-                    <MemberCard name='Xuanyu Dong' info="Sophomore | Neurobiology" role="Member" department="BD" />
 
                     <MemberCard name='Xinyi Zhu' info="Senior | Biology: Bioinformatics" role="Member" department="DAD" />
                     <MemberCard name='Shunkai Yu' info="Senior | Computer Engineering" role="Member" department="DAD" />
