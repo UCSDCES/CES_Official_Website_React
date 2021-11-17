@@ -31,7 +31,7 @@ const Members = () => (
                     <MemberCard name='Duolan Ouyang' info="Senior | Computer Science" role="Vice President" />
                     <MemberCard name='Yuelai Wang' info="Senior | Bioengineering: Bioinformatics" role="Vice President" />
                     <MemberCard name='Yuqiu Wang' info="Senior | Bioengineering: Bioinformatics" role="Lead" department="Media"/>
-                    <MemberCard name='Chi Zhang' info="Junior | Bioengineering: Bioinformatics" role="Lead" department="Media"/>
+                    <MemberCard name='Chi Zhang' info="Junior | Bioengineering: Biotech" role="Lead" department="Media"/>
                     <MemberCard name='Fangyi Lu' info="Senior | Bioengineering: Biosystem" role="Lead" department="CDP"/>
                     <MemberCard name='Manshi Yang' info="Junior | Prob & Stats, CE" role="Lead" department="CDP"/>
                     <MemberCard name='Huiqi Chen' info="Sophomore | Economics & Communication" role="Lead" department='BD' />
