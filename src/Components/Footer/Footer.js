@@ -11,7 +11,7 @@ const footer = () => (
                 <div id="homepage_footer_widget_mail" className="homepage_footer_widgets"></div>
             </div>
 
-            <div className="homepage_footer_icons github_black_icon" onClick="window.open ('https://github.com/Broccolito/CES_Official_Website')">
+            <div className="homepage_footer_icons github_black_icon" onClick={()=> window.open('https://github.com/Broccolito/CES_Official_Website')}>
                 <div id="homepage_footer_widget_github" className="homepage_footer_widgets"></div>
             </div>
 
