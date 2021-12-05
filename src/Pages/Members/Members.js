@@ -106,6 +106,7 @@ const Members = () => (
                     <AlumniCard name='Shuyang Liu' role='Former DAD'/>
                     <AlumniCard name='Zhixiong Li' role='Former IA'/>
                     <AlumniCard name='Ruolei Dong' role='Former Media'/>
+                    <AlumniCard name='Yueqian Ma' role='Former Media'/>
                     <AlumniCard name='Shantao Yi' role='Former CDP'/>
                     <AlumniCard name='Renxu Hu' role='Former CDP'/>
                     <AlumniCard name='Ziyan Cui' role='Former VP of external'/>
