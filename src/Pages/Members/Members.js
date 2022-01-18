@@ -68,7 +68,7 @@ const Members = () => (
                     <MemberCard name='Xianglin Chen' info="Sophomore | EE" role="Member" department="Media" />
                     <MemberCard name='Xiaoxiao Zou' info="Junior | CE, Applied Math" role="Member" department="Media" />
                     <MemberCard name='Xuanyu Dong' info="Junior | Neurobiology" role="Member" department="Media, BD" />
-                    <MemberCard name='Yuxin Wang' info="Senior | Econ" role="Member" department="Media" />
+                    <MemberCard name='Xinyu Wang' info="Senior | Econ" role="Member" department="Media" />
 
 
                     <MemberCard name='Dongyang Li' info="Freshmen | Mathematics & Computer Science" role="Member" department="BD" />
