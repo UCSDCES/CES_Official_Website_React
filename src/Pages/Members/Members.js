@@ -38,7 +38,7 @@ const Members = () => (
                     <MemberCard name='Zhuoran Shao' info="Junior | Cognitive Science, Machine Learning" role="Lead" department='BD' />
                     <MemberCard name='Yuntian Bi' info="Senior | Gen Chem & ESYS " role="Lead" department='DAD' />
                     <MemberCard name='Tianze Guo' info="Senior | Bioengineering: Biotechnology" role="Lead" department='DAD' />
-                    <MemberCard name='Yicheng Guo' info="Senior | Math-CS" role="Lead" department='HR' />
+                    <MemberCard name='Yu Cao' info="Junior | Data Science" role="Lead" department="HR" />
                     <MemberCard name='Lehan Li' info="Senior | Data Science & Cognitive Science" role="Lead" department='HR' />
                 </Row>
             </section>
@@ -87,7 +87,6 @@ const Members = () => (
                     <MemberCard name='Haoran Meng' info="Sophomore | Bioengineering:Bioengineering" role="Member" department="DAD" />
 
                     <MemberCard name='Zixin Ma' info="Junior | Data Science" role="Member" department="HR" />
-                    <MemberCard name='Yu Cao' info="Junior | Data Science" role="Member" department="HR" />
                     <MemberCard name='Yiwei Cao' info="Senior | Math-Econ" role="Member" department="HR" />
                     <MemberCard name='Changhong Chen' info="Senior | Mechanical Engineering" role="Member" department="HR" />
                     <MemberCard name='Hongyue Jin' info="Junior | COGS, CE" role="Member" department="HR" />
@@ -138,6 +137,7 @@ const Members = () => (
                     <AlumniCard name='Shinuo Xu' role='Former CDP'/>
                     <AlumniCard name='Yiran Shao' role='Former CDP'/>
                     <AlumniCard name='Yuexiang Zhang' role="Former CDP" />
+                    <AlumniCard name='Yicheng Guo' role="Former HR" />
 
                 </Row>
 
