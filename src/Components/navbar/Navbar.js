@@ -19,7 +19,6 @@ const navbar = () => (
                 <Nav.Item style={{float: "right"}}><Nav.Link activeClassName="active" href="/gallery">Gallery</Nav.Link></Nav.Item>
                 <Nav.Item style={{float: "right"}}><Nav.Link activeClassName="active" href="/events">Events</Nav.Link></Nav.Item>
                 <Nav.Item style={{float: "right"}}><Nav.Link activeClassName="active" href="/about">About</Nav.Link></Nav.Item>
-                <Nav.Item style={{float: "right"}}><Nav.Link activeClassName="active" href="#link">Contact</Nav.Link></Nav.Item>
             </Nav>
         </Navbar.Collapse>
         </Container>
