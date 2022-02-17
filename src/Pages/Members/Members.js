@@ -119,11 +119,9 @@ const Members = () => (
                     <AlumniCard name='Jiaye Wang' role='Former DAD'/>
                     <AlumniCard name='Chunchen Hong' role='Former DAD'/>
                     <AlumniCard name='Yujie Chen' role='Former CDP'/>
-                    <AlumniCard name='Zhizhen Qin' role='Former President'/>
-                    <AlumniCard name='Zhizhen Qin' role='Former President'/>
                     <AlumniCard name='Guangze Wang' role='Former IA'/>
                     <AlumniCard name='Yijun Liu' role=''/>
-                    <AlumniCard name='Luo Hao' role='Former President'/>
+                    <AlumniCard name='Luo Hao' role=''/>
                     <AlumniCard name='Zhuoran Li' role='Former DAD, BD'/>
                     <AlumniCard name='Zhihan Hu' role='Former DAD'/>
                     <AlumniCard name='Chen Liu' role='Former CDP'/>
