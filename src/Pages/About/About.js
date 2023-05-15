@@ -24,7 +24,7 @@ const About = () => (
             <Row>
                 <Col xs={12} lg={6} md={6}>
                     <p id="intro">
-                        <b>Chinese Engineering Society (CES)</b> is a not-for-profit association dedicated to inspire, nurture, and bring together the next generation of engineers aimed to create positive impacts to our world.
+                        <b>Chinese Engineering Society teset1 (CES)</b> is a not-for-profit association dedicated to inspire, nurture, and bring together the next generation of engineers aimed to create positive impacts to our world.
                     </p>
                     <p id="intro">
                         Standing as a multidisciplinary organization of aspiring entrepreneurs and dedicated volunteers, we strive to foster the ethics and creativity upheld in the top engineering schools.
